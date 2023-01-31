@@ -10,10 +10,6 @@ background-color: indigo;
 padding-top: 10px;
 }
 
-header div {
-margin-bottom: -3px;
-}
-
 header h2 {
 text-transform: uppercase;
 text-align: center;
@@ -32,10 +28,21 @@ a:hover {
 color: yellow;
 }
 
+.container-flex {
+display: flex;
+object-fit: contain;
+}
+
+.nav-flex {
+display: flex;
+justify-content: flex-end;
+}
+
 nav {
-position: absolute;
-right: 5px;
-display: inline-block;
+display: flex;
+margin-bottom: -20px;
+z-index: 1;
+gap: 2px;
 }
 
 nav a {
@@ -109,7 +116,7 @@ border-radius: 10px;
 }
 
 .separator {
-height: 10px;
+height: 5px;
 background-color: gold;
 }
 
