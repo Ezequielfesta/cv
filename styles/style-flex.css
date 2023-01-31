@@ -10,6 +10,10 @@ background-color: indigo;
 padding-top: 10px;
 }
 
+header div {
+margin-bottom: -3px;
+}
+
 header h2 {
 text-transform: uppercase;
 text-align: center;
