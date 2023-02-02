@@ -142,6 +142,7 @@ justify-content: space-around;
 .flex-start{
 justify-content: flex-start;
 }
+
 .separator {
 height: 5px;
 background-color: gold;
@@ -149,4 +150,18 @@ background-color: gold;
 
 .headerimg {
 content: url(../img/design2_image1.jpg);
+}
+
+.schedule tr td, .schedule tr th {
+border:2px solid darkslateblue;
+padding: 10px;
+text-align: center;
+}
+
+.center {
+    text-align: center;
+}
+
+.bold {
+font-weight: bold;
 }
