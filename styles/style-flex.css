@@ -71,8 +71,10 @@ h1 {
     background-image: url("../img/header.png");
     background-repeat: no-repeat;
     background-size: contain;
-    user-select: none; /* Impide la selección de texto */
-    color: rgba(0, 0, 0, 0); /* Texto transparente */
+    user-select: none;
+    /* Impide la selección de texto */
+    color: rgba(0, 0, 0, 0);
+    /* Texto transparente */
     margin: 0px 10px 10px 10px;
 }
 
@@ -148,11 +150,17 @@ body {
     content: url(../img/design2_image1.jpg);
 }
 
+.schedule {
+    width: 90%;
+}
+
 .schedule tr td,
 .schedule tr th {
-    border: 2px solid darkslateblue;
     padding: 10px;
-    text-align: center;
+}
+
+th {
+    text-align: left;
 }
 
 .center {
@@ -163,11 +171,25 @@ body {
     font-weight: normal;
 }
 
-ol, ul {
+.right {
+    text-align: right;
+}
+
+ol,
+ul {
     list-style-position: inside;
 }
 
 .ulmargin {
     margin-left: 2.5em;
     margin-top: -15px;
+    list-style-type: circle;
+}
+
+.big {
+    font-size: 2em;
+}
+
+.li-spaced>li {
+    margin-bottom: 20px;
 }
