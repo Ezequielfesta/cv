@@ -42,23 +42,23 @@
 						<legend>Registration Form</legend>
 						<label>
 							<span>Player's First Name:</span>
-							<input type="text" name="firstname" placeholder="Enter your first name here" required>
+							<input type="text" name="firstname" placeholder="Enter player's first name here" required>
 						</label>
 						<label>
 							<span>Last Name:</span>
-							<input type="text" name="lastname" placeholder="Enter your last name here" required>
+							<input type="text" name="lastname" placeholder="Enter player's last name here" required>
 						</label>
 						<label>
 							<span>Street Address:</span>
-							<input type="text" name="address" placeholder="Enter your address here" required>
+							<input type="text" name="address" placeholder="Enter player's address here" required>
 						</label>
 						<label>
 							<span>City:</span>
-							<input type="text" name="city" placeholder="Enter your city here" required>
+							<input type="text" name="city" placeholder="Enter player's city here" required>
 						</label>
 						<label>
 							<span>Zip Code:</span>
-							<input type="number" name="zipcode" placeholder="Enter your zip code here" required>
+							<input type="number" name="zipcode" placeholder="Enter player's zip code here" required>
 						</label>
 						<label>
 							<span>Birth Date:</span>
@@ -122,13 +122,25 @@
 							the facilities used for practices and games, against any claim by or on behalf of the
 							registrant as a result of the registrant's participation in the program and/or being
 							transported to or from MDHL sponsored activities, which transportation.</p>
-						<label><input type="checkbox" name="agree" value="Agree" required><span class="small">By
-								checking this, I hereby agree and authorize the above. In addition, by checking this, I
+						<label><span class="small"><input type="checkbox" name="agree" value="Agree" required>&nbsp;By
+								checking this, I hereby agree and authorize the above.<br>In addition, by checking this, I
 								also acknowledge that I have read the cancellation policy and agree to its
 								terms.</span></label>
+								<br>
+								<label>
+									<span>Parent/Guardian's First Name:</span>
+									<input type="text" name="parentfirstname" placeholder="Enter Parent/Guardian's first name here" required>
+								</label>
+								<label>
+									<span>Last Name:</span>
+									<input type="text" name="parentlastname" placeholder="Enter Parent/Guardian's last name here" required>
+								</label>
+								<label>
+									<span>Date:</span>
+									<input type="date" name="date" required>
+								</label>
 						<br>
 						<label class="boxcenter"><input type="submit" value="Submit"></label>
-						
 					</fieldset>
 				</form>
 			</div>
